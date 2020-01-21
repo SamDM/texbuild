@@ -2,6 +2,14 @@
 
 Small command line tool to cleanly compile latex projects.
 
+- Building your document does not pollute your source files
+  with auto-generated build files.
+- It uses `latexmk` with `lualatex` under the hood for compiling and caching.
+- On failure, it automatically suppresses all interactive prompts
+  and just shows the error message.
+- Colorful message boxes give a quick clear idea
+  of whether a build succeeded or not.
+
 ## Project structure
 
 This tool requires latex projects to be organized as follows:
@@ -58,7 +66,7 @@ Do not include the `.text` extension. E.g.:
 ```bash
 texbuild ./example loop my_tex_file
 # ┏━━━━╸ ┏━━━━━━━╸ ┏━━╸ ╺━━━━━━━━━━name of file to compile
-# ┃      ┃         ┗keep building continously
+# ┃      ┃         ┗auto re-compile on file change
 # ┃      ┗path to project dir
 # ┗name of command line utility
 ```

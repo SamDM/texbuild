@@ -1,4 +1,4 @@
-garbage.egg-info/
+texbuild.egg-info/
 **/__pycache__
 example/bld
 example/dst
