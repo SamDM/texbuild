@@ -47,7 +47,7 @@ Or you can delete them manually when `texbuild` is not running.
 
 ### src
 
-This contains all your Latex source code, this can be arbitrarily structured.
+This contains all your Tex source code, this can be arbitrarily structured.
 All files inside `src` can safely reference other files by the relative path
 from the `src` dir.
 
