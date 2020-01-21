@@ -78,7 +78,7 @@ Also, when a compilation error occurs, you are not left with a blank pdf.
 
 Just point `texbuild` to your project dir
 and to the the file you want to compile (relative to the `src` dir).
-Do not include the `.text` extension. E.g.:
+Do not include the `.tex` extension. E.g.:
 
 ```bash
 texbuild ./example loop my_tex_file
