@@ -9,6 +9,23 @@ Small command line tool to cleanly compile latex projects.
   and just shows the error message.
 - Colorful message boxes give a quick clear idea
   of whether a build succeeded or not.
+ 
+## Installation
+
+This project has no python dependencies,
+but you must have `latexmk` and `rsync` available on the command line.
+
+```
+pip install 'git+https://gitlab.psb.ugent.be/Utilities/texbuild.git'
+```
+
+Or, if you are developing `texbuild` itself:
+
+```
+git clone 'https://gitlab.psb.ugent.be/Utilities/texbuild.git'
+cd texbuild
+pip install -e .
+```
 
 ## Project structure
 
