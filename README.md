@@ -33,13 +33,13 @@ This project has no python dependencies,
 but you must have `rsync`, `inotifywait` and `latexmk` available on the command line.
 
 ```
-pip install 'git+https://gitlab.psb.ugent.be/Utilities/texbuild.git'
+pip install 'git+https://github.com/SamDM/texbuild'
 ```
 
 Or, if you are developing `texbuild` itself:
 
 ```
-git clone 'https://gitlab.psb.ugent.be/Utilities/texbuild.git'
+git clone 'https://github.com/SamDM/texbuild.git'
 cd texbuild
 pip install -e .
 ```
